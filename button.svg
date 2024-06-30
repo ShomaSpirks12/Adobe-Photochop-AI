@@ -1,0 +1,31 @@
+<svg width="300" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(146,148,248,0);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgba(146,148,248,0.4);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(146,148,248,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <style>
+    .btn {
+      fill: rgba(0,0,0,0.8);
+      stroke: rgb(146,148,248);
+      stroke-width: 2;
+      cursor: pointer;
+    }
+    .text {
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      fill: #f4f4f4;
+      text-anchor: middle;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <g class="btn">
+    <rect x="10" y="10" width="280" height="60" rx="5" ry="5" />
+    <rect class="shine" x="10" y="10" width="280" height="60" rx="5" ry="5" />
+    <text x="150" y="48" class="text">Download</text>
+  </g>
+</svg>
